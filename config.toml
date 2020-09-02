@@ -4,7 +4,7 @@ theme ="basic"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
-copyright = "© 2016-19 UPSC GQ. Made by <a href='https://twitter.com/asadadvik'>@asadadvik</a>."
+copyright = "© UPSC GQ. Made by <a href='https://twitter.com/asadadvik'>@asadadvik</a>."
 description = "free resources for UPSC CSE"
 
 [taxonomies]
