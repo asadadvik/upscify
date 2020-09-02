@@ -4,7 +4,7 @@ theme ="basic"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
-copyright = "© Asad Advik</a>."
+copyright = "© Asad Advik"
 description = "free resource list for UPSC CSE"
 
 [taxonomies]
