@@ -1,11 +1,11 @@
-baseURL = "/"
+baseURL = "https://www.example.com/"
 title = "UPSC GQ"
 theme ="basic"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
-copyright = "© UPSC GQ 2020. Made by <a href="https://twitter.com/AsadAdvik">@asadadvik</a>"
-description = "free resource list for UPSC CSE"
+copyright = "© 2016-19 UPSC GQ. Made by <a href='https://twitter.com/asadadvik'>@asadadvik</a>."
+description = "free resources for UPSC CSE"
 
 [taxonomies]
   category = "categories"
