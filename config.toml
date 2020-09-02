@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com/"
+baseURL = "/"
 title = "UPSC GQ"
 theme ="basic"
 languageCode = "en-us"
