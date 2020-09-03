@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "UPSCGQ"
 theme = "gq"
+enableEmoji = true
 
 [menu]
   [[menu.main]]
