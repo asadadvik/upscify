@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container">
-<h1>{{ .Title }}</h1>
+<h1 class="title-gq">{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
     <h3><a class="title ani-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
