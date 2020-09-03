@@ -1,4 +1,4 @@
 ---
-title: "Thanks for the subscription"
+title: "Thanks you for subscribing 🎉"
 layout: "thanks"
 ---
