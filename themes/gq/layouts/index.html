@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
-<div id="home-jumbotron" class="jumbotron">
+<!-- <div id="home-jumbotron" class="jumbotron">
   <div class="container">
     <h1 class="title-gq">Free resources</h1>
     <p class="subtitle-gq"> a website for all things UPSC</p>
@@ -10,7 +10,7 @@
       <a class="button-gq" href="#" role="button">Learn more</a>
     </p>
   </div>
-</div>
+</div> -->
 
 
 
@@ -24,7 +24,7 @@
   <li style="list-style-type: none">
     <h2>
       <a
-        style="font-weight: 800; text-transform: uppercase; font-size: 62px;"
+        style="font-weight: 800;font-size: 62px;"
         class="ani-link"
         href="{{ .Permalink }}"
         >{{ .Title }}</a
@@ -32,6 +32,18 @@
     </h2>
   </li>
   {{ end }}
+
+  <form name="contact" netlify>
+    <p>
+      <label>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
 </div>
 
 {{ end }}
