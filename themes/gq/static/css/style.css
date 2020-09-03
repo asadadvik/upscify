@@ -12,6 +12,9 @@ a:hover{
   font-weight: 800;
 }
 
+
+
+
 .articlePreview{
   /* background: #e9ecef; */
   padding: 5px 20px;
@@ -33,13 +36,26 @@ a:hover{
   color: white !important;
   background: black;
 }
+
+/* ***************** */
+/***** INPUT FIELD ***/
+/* ***************** */
 input {
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 4px;
   padding: 5px 10px;
   font-size: 24px !important;
   font-weight: 500;
 }
+input:focus{
+  border: 3px solid blue;
+  outline: none;
+}
+
+
+/*************/
+/* BUTTONS */
+/*************/
 button{
   border: none;
 }
@@ -56,10 +72,15 @@ button{
   background: blue;
   color:  white !important;
 }
+
+
+
+/***************/
+/* TITLES */
+/***************/
 .title-home{
 font-size: 62px !important;
 font-weight: 800 !important;
-
 }
 .title-gq{
   color: black;
@@ -71,6 +92,11 @@ font-weight: 800 !important;
   font-weight: 500;
   font-size: 20px;
 }
+
+
+/*****************/
+/* NAVIGATION */
+/*****************/
 .nav {
   height: 48px;
   /* font-size: 18px; */
@@ -86,7 +112,6 @@ font-weight: 800 !important;
   border: none !important;
   outline: none !important;
 }
-
 .nav-link {
   font-weight: 600;
   text-transform: uppercase;
@@ -95,6 +120,14 @@ font-weight: 800 !important;
   color: black;
 }
 
+
+
+
+
+
+/******************/
+/* LINK ANIMATION */
+/******************/
 .ani-link {
   display: inline-block;
   color: #000;
@@ -105,7 +138,7 @@ font-weight: 800 !important;
   content: "";
   display: block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: blue;
   transition: width 0.3s;
 }
