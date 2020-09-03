@@ -33,13 +33,22 @@ a:hover{
   color: white !important;
   background: black;
 }
-
+input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 24px !important;
+  font-weight: 500;
+}
+button{
+  border: none;
+}
 .button-gq{
-  padding: 15px 25px;
+  padding: 5px 25px;
   /* border: 2px solid black !important; */
   border-radius: 2px;
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   background: black;
   font-weight: 600;
 }

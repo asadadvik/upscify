@@ -33,15 +33,14 @@
   </li>
   {{ end }}
 
-  <form name="contact" netlify>
-    <p>
-      <label>Name <input type="text" name="name" /></label>
+  <form name="contact" action="/thanks" netlify>
+    <p><input type="text" name="name" placeholder="Name"/>
     </p>
     <p>
-      <label>Email <input type="email" name="email" /></label>
+      <input type="email" name="email" placeholder="name@email.com"/>
     </p>
     <p>
-      <button type="submit">Send</button>
+      <button class="button-gq" type="submit">Send</button>
     </p>
   </form>
 </div>
