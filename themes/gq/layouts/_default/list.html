@@ -1,11 +1,21 @@
 {{ define "main" }}
 <div class="container">
-<h1 class="title-gq">{{ .Title }}</h1>
+<h1 class="pageTitle">{{ .Title }}</h1>
+
+
+
 {{ range .Pages.ByPublishDate.Reverse }}
+<div class="articlePreview">
 <p>
-    <h3><a class="title ani-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h3><a class="title ani-link" style="color:black;font-weight:700"href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ partial "metadata.html" . }}
+    <p>{{ .Summary}}</p>
+    
+    <hr>
 </p>
+
+</div>
 {{ end }}
+
 </div>
 {{ end }}

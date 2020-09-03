@@ -7,11 +7,37 @@ a:hover{
   text-decoration: none !important;
   color: black !important;
 }
+.pageTitle{
+  color: black;
+  font-weight: 800;
+}
+
+.articlePreview{
+  /* background: #e9ecef; */
+  padding: 5px 20px;
+  border-radius: 2px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tag-gq{
+  padding: 2px 18px;
+  background: blue;
+  color: white;
+  border-radius: 1px;
+}
+.tag-gq:hover{
+  color: white !important;
+  background: black;
+}
 
 .button-gq{
   padding: 15px 25px;
   /* border: 2px solid black !important; */
-  border-radius: 1px;
+  border-radius: 2px;
   color: white;
   font-size: 18px;
   background: black;

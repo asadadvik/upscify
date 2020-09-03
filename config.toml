@@ -9,6 +9,6 @@ theme = "gq"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Posts"
-    url = "/posts"
+    name = "Articles"
+    url = "/articles"
     weight = 2

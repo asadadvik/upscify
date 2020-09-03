@@ -1,6 +1,19 @@
 {{ define "main" }}
+<div class="container" style="max-width: 720px;">
 <h1>{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
 <br><br>
 {{ .Content }}
+
+
+{{ with .Params.tags }}
+{{ range . }}
+{{ $href := print (absURL "tags/") (urlize .) }}
+<a class="tag-gq" href="{{ $href }}">{{ . }}</a>
+{{ end }}
+{{ end }}
+
+
+
+</div>
 {{ end }}
