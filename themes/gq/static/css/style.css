@@ -8,6 +8,30 @@ a:hover{
   color: black !important;
 }
 
+.button-gq{
+  padding: 15px 25px;
+  /* border: 2px solid black !important; */
+  border-radius: 1px;
+  color: white;
+  font-size: 18px;
+  background: black;
+  font-weight: 600;
+}
+.button-gq:hover{
+  background: blue;
+  color:  white !important;
+}
+
+.title-gq{
+  color: black;
+  font-weight: 800;
+  font-size: 42px;
+}
+.subtitle-gq{
+  color: lightslategray;
+  font-weight: 600;
+  font-size: 20px;
+}
 .nav {
   height: 48px;
   /* font-size: 18px; */

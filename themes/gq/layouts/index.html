@@ -1,13 +1,26 @@
 {{ define "main" }}
+
 <div class="container">
-  <div id="home-jumbotron" class="jumbotron text-center">
-    <h1 class="title" style="font-weight: 800;">{{ .Site.Title }}</h1>
+  <div id="home-jumbotron" class="jumbotron">
+    <h1 class="title-gq">Hello, world!</h1>
+    <p class="subtitle-gq"> a website for all things UPSC</p>
+    <br>
+    <p>
+      <a class="button-gq" href="#" role="button">Learn more</a>
+    </p>
   </div>
 
   {{ range .Pages }}
-        <li style="list-style-type: none;">
-            <a ><h2 style="font-weight: 800;text-transform:uppercase;" class="ani-link" href="{{ .Permalink }}">{{ .Title }}</h2></a>
-        </li>
+  <li style="list-style-type: none">
+    <h2>
+      <a
+        style="font-weight: 800; text-transform: uppercase"
+        class="ani-link"
+        href="{{ .Permalink }}"
+        >{{ .Title }}</a
+      >
+    </h2>
+  </li>
   {{ end }}
 </div>
 
