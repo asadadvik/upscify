@@ -13,36 +13,41 @@
 </div> -->
 
 
-
-
-
-
 <div class="container">
+  <br>
+  <br>
   
+  <!-- PAGE LISTING -->
 
-  {{ range .Pages }}
   <li style="list-style-type: none">
-    <h2>
-      <a
-        style="font-weight: 800;font-size: 62px;"
-        class="ani-link"
-        href="{{ .Permalink }}"
-        >{{ .Title }}</a
-      >
-    </h2>
+    <h2><a class="title-home ani-link"href="/articles">Articles</a></h2>
   </li>
-  {{ end }}
+  <li style="list-style-type: none">
+    <h2><a class="title-home ani-link"href="/books">Books</a></h2>
+  </li>
+  <li style="list-style-type: none">
+    <h2><a class="title-home ani-link"href="/syllabus">Syllabus</a></h2>
+  </li>
 
+<!-- PAGE LISTING ENDS -->
+
+<br>
+<br>
+
+<!-- SUBSCRIPTION FORM -->
   <form name="contact" action="/thanks" netlify>
-    <p><input type="text" name="name" placeholder="Name"/>
+    <p><input type="text" name="name" placeholder="Name" required/>
     </p>
     <p>
-      <input type="email" name="email" placeholder="name@email.com"/>
+      <input type="email" name="email" placeholder="name@email.com" required/>
     </p>
     <p>
       <button class="button-gq" type="submit">Send</button>
     </p>
   </form>
+<!-- SUBSCRIPTION FORM ENDS -->
+
+
 </div>
 
 {{ end }}

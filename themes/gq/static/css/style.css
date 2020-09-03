@@ -56,7 +56,11 @@ button{
   background: blue;
   color:  white !important;
 }
+.title-home{
+font-size: 62px !important;
+font-weight: 800 !important;
 
+}
 .title-gq{
   color: black;
   font-weight: 800;
