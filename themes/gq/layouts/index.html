@@ -1,5 +1,14 @@
 {{ define "main" }}
-<div id="home-jumbotron" class="jumbotron text-center">
-  <h1 class="title">{{ .Site.Title }}</h1>
+<div class="container">
+  <div id="home-jumbotron" class="jumbotron text-center">
+    <h1 class="title" style="font-weight: 800;">{{ .Site.Title }}</h1>
+  </div>
+
+  {{ range .Pages }}
+        <li style="list-style-type: none;">
+            <a ><h2 style="font-weight: 800;text-transform:uppercase;" class="ani-link" href="{{ .Permalink }}">{{ .Title }}</h2></a>
+        </li>
+  {{ end }}
 </div>
+
 {{ end }}

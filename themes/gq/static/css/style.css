@@ -3,6 +3,10 @@
 body {
   font-family: "Inter", sans-serif !important;
 }
+a:hover{
+  text-decoration: none !important;
+  color: black !important;
+}
 
 .nav {
   height: 48px;
