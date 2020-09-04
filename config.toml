@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "UPSCGQ"
 theme = "gq"
 enableEmoji = true
+description = "This is it"
+
 
 [menu]
   [[menu.main]]
@@ -10,6 +12,6 @@ enableEmoji = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Articles"
-    url = "/articles"
+    name = "Subscribe"
+    url = "/subscribe"
     weight = 2
