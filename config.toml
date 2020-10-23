@@ -1,9 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "UPSCGQ"
+title = "Upscify"
 theme = "gq"
 enableEmoji = true
-description = "This is it"
+description = "Online learning platform"
 
 
 [menu]
