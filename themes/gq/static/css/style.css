@@ -120,7 +120,9 @@ font-weight: 800 !important;
 .nav-link:hover {
   color: black;
 }
-
+.navbar {
+  padding: 0 !important;
+}
 
 
 
