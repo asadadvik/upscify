@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Upscify"
 theme = "gq"
 enableEmoji = true
-description = "Online learning platform"
+description = "Online learning platform for UPSC"
 
 
 [menu]
