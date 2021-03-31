@@ -2,6 +2,7 @@
 
 body {
   font-family: "Inter", sans-serif !important;
+  background-color: #f5f6f7;
 }
 
 a:hover{
@@ -29,7 +30,7 @@ a:hover{
 
 .tag-gq{
   padding: 2px 18px;
-  background: blue;
+  background: #0068ff;
   color: white;
   border-radius: 1px;
 }
@@ -49,7 +50,7 @@ input {
   font-weight: 500;
 }
 input:focus{
-  border: 3px solid blue;
+  border: 3px solid #0068ff;
   outline: none;
 }
 
@@ -70,7 +71,7 @@ button{
   font-weight: 600;
 }
 .button-gq:hover{
-  background: blue;
+  background: #0068ff;
   color:  white !important;
 }
 
@@ -103,23 +104,29 @@ font-weight: 800 !important;
   /* font-size: 18px; */
 }
 #logo {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 24px;
+  color: #0068ff;
+}
+#logo:hover{
+  color: #0068ff !important;
 }
 .gq {
-  color: blue;
+  color: #0068ff;
 }
 .navbar-toggler {
   border: none !important;
   outline: none !important;
+  color: red;
 }
 .nav-link {
   font-weight: 600;
-  text-transform: uppercase;
+  color: white;
+  /* text-transform: uppercase; */
 }
-.nav-link:hover {
+/* .nav-link:hover {
   color: black;
-}
+} */
 .navbar {
   padding: 0 !important;
 }
@@ -142,7 +149,7 @@ font-weight: 800 !important;
   display: block;
   width: 0;
   height: 3px;
-  background: blue;
+  background: #0068ff;
   transition: width 0.3s;
 }
 

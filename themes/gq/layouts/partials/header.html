@@ -1,19 +1,19 @@
-<div class="navbar-border" style="border-bottom: 1px solid black;position:fixed;width:100%;top:0;background:white;">
+<div class="navbar-border" style="border-bottom: 1px solid #ddd;position:fixed;width:100%;top:0;background:white;">
 <div id="nav-border" class="container" >
     <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" id="logo" href="/">UPSCIFY</a>
+        <a class="navbar-brand" id="logo" href="/">Upscify</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="square" ><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0068ff" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="square" ><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
             </button>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-        {{ range .Site.Menus.main }}
+        <!-- {{ range .Site.Menus.main }}
             <a class="nav-link ani-link" href="{{ .URL }}">
                 {{ $text := print .Name | safeHTML }}
                 {{ $text }}
             </a>
-        {{ end }}
+        {{ end }} -->
         </div>
       </nav>
 </div>
